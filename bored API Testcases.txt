@@ -1,0 +1,428 @@
+Request:
+End Point:http://www.boredapi.com/api/activity?key=45309
+Method: GET
+
+Response:
+Status Code: 200
+Reponse Body:	{
+    "error": "No activity found with the specified parameters"
+}
+
+
+Request:
+End Point:http://www.boredapi.com/api/activity?key=-1234567
+Method: GET
+
+Response:
+Status Code: 200
+Reponse Body:{
+    "error": "No activity found with the specified parameters"
+}
+
+
+
+Request:
+End Point:http://www.boredapi.com/api/activity?key=4530981
+Method: GET
+
+Response:
+Status Code: 200
+Reponse Body:{
+    "error": "No activity found with the specified parameters"
+}
+
+
+Request:
+End Point:http://www.boredapi.com/api/activity?key=321452
+Method: GET
+
+Response:
+Status Code: 200
+Reponse Body:{
+    "error": "No activity found with the specified parameters"
+}
+
+
+
+Request:
+End Point:http://www.boredapi.com/api/activity?key=0
+Method: GET
+
+Response:
+Status Code: 200
+Reponse Body:{
+    "error": "No activity found with the specified parameters"
+}
+
+
+Request:
+End Point:http://www.boredapi.com/api/activity?key
+Method: GET
+
+Response:
+Status Code: 200
+Reponse Body:{
+    "error": "No activity found with the specified parameters"
+}
+
+
+
+Request:
+End Point:http://www.boredapi.com/api/activity?type
+Method: GET
+
+Response:
+Status Code: 200
+Reponse Body:{
+    "activity": "Learn how to make a website",
+    "type": "education",
+    "participants": 1,
+    "price": 0.1,
+    "link": "",
+    "key": "9924423",
+    "accessibility": 0.3
+}
+
+
+Request:
+End Point:http://www.boredapi.com/api/activity?type=social
+Method: GET
+
+Response:
+Status Code: 200
+Reponse Body:{
+    "activity": "Pull a harmless prank on one of your friends",
+    "type": "social",
+    "participants": 1,
+    "price": 0.1,
+    "link": "",
+    "key": "1288934",
+    "accessibility": 0.2
+}
+
+
+
+Request:
+End Point:http://www.boredapi.com/api/activity?type=relaxation
+Method: GET
+
+Response:
+Status Code: 200
+Reponse Body:{
+    "activity": "Plan a vacation you've always wanted to take",
+    "type": "relaxation",
+    "participants": 1,
+    "price": 0,
+    "link": "",
+    "key": "7265395",
+    "accessibility": 0.05
+}
+
+
+Request:
+End Point:http://www.boredapi.com/api/activity?type=music
+Method: GET
+
+Response:
+Status Code: 200
+Reponse Body:{
+    "activity": "Have a jam session with your friends",
+    "type": "music",
+    "participants": 5,
+    "price": 0.1,
+    "link": "",
+    "key": "2715253",
+    "accessibility": 0.3
+}
+
+
+
+Request:
+End Point:http://www.boredapi.com/api/activity?type=education
+Method: GET
+
+Response:
+Status Code: 200
+Reponse Body:{
+    "activity": "Watch a Khan Academy lecture on a subject of your choosing",
+    "type": "education",
+    "participants": 1,
+    "price": 0,
+    "link": "https://www.khanacademy.org/",
+    "key": "7154873",
+    "accessibility": 0
+}
+
+
+Request:
+End Point:http://www.boredapi.com/api/activity?type=diy
+Method: GET
+
+Response:
+Status Code: 200
+Reponse Body:{
+    "activity": "Learn woodworking",
+    "type": "diy",
+    "participants": 1,
+    "price": 0.3,
+    "link": "",
+    "key": "9216391",
+    "accessibility": 0.3
+}
+
+
+
+Request:
+End Point:http://www.boredapi.com/api/activity?type=cooking
+Method: GET
+
+Response:
+Status Code: 200
+Reponse Body:{
+    "activity": "Bake a pie with some friends",
+    "type": "cooking",
+    "participants": 3,
+    "price": 0.3,
+    "link": "",
+    "key": "3141592",
+    "accessibility": 0.3
+}
+
+
+Request:
+End Point:http://www.boredapi.com/api/activity?type=charity
+Method: GET
+
+Response:
+Status Code: 200
+Reponse Body:{
+    "activity": "Pick up litter around your favorite park",
+    "type": "charity",
+    "participants": 1,
+    "price": 0,
+    "link": "",
+    "key": "4894697",
+    "accessibility": 0.05
+}
+
+
+
+Request:
+End Point:http://www.boredapi.com/api/activity?type=busywork
+Method: GET
+
+Response:
+Status Code: 200
+Reponse Body:{
+    "activity": "Organize a cluttered drawer",
+    "type": "busywork",
+    "participants": 1,
+    "price": 0,
+    "link": "",
+    "key": "9714586",
+    "accessibility": 0
+}
+
+
+Request:
+End Point:http://www.boredapi.com/api/activity?type=SOCIAL
+Method: GET
+
+Response:
+Status Code: 200
+Reponse Body:{
+    "error": "No activity found with the specified parameters"
+}
+
+
+
+Request:
+End Point:http://www.boredapi.com/api/activity?price=0
+Method: GET
+
+Response:
+Status Code: 200
+Reponse Body:{
+    "activity": "Clean out your garage",
+    "type": "busywork",
+    "participants": 1,
+    "price": 0,
+    "link": "",
+    "key": "7023703",
+    "accessibility": 0.1
+}
+
+
+Request:
+End Point:http://www.boredapi.com/api/activity?price=-1.0
+Method: GET
+
+Response:
+Status Code: 200
+Reponse Body:{
+    "error": "No activity found with the specified parameters"
+}
+
+
+
+Request:
+End Point:http://www.boredapi.com/api/activity?price=0.6
+Method: GET
+
+Response:
+Status Code: 200
+Reponse Body:{
+    "activity": "Learn the Chinese erhu",
+    "type": "music",
+    "participants": 1,
+    "price": 0.6,
+    "link": "",
+    "key": "2742452",
+    "accessibility": 0.4
+}
+
+
+Request:
+End Point:http://www.boredapi.com/api/activity?participants=0
+Method: GET
+
+Response:
+Status Code: 200
+Reponse Body:{
+    "activity": "Shop at support your local farmers market",
+    "type": "relaxation",
+    "participants": 1,
+    "price": 0.2,
+    "link": "",
+    "key": "8979931",
+    "accessibility": 0.1
+}
+
+
+
+Request:
+End Point:http://www.boredapi.com/api/activity?participants=6
+Method: GET
+
+Response:
+Status Code: 200
+Reponse Body:{
+    "error": "No activity found with the specified parameters"
+}
+
+
+Request:
+End Point:http://www.boredapi.com/api/activity?participants=-1
+Method: GET
+
+Response:
+Status Code: 200
+Reponse Body:{
+    "error": "No activity found with the specified parameters"
+}
+
+
+
+Request:
+End Point:http://www.boredapi.com/api/activity?participants
+Method: GET
+
+Response:
+Status Code: 200
+Reponse Body:{
+    "activity": "Go to a karaoke bar with some friends",
+    "type": "social",
+    "participants": 4,
+    "price": 0.5,
+    "link": "",
+    "key": "9072906",
+    "accessibility": 0.35
+}
+
+
+
+Request:
+End Point:http://www.boredapi.com/api/activity?paricipants=5
+Method: GET
+
+Response:
+Status Code: 200
+Reponse Body:{
+    "activity": "Have a bonfire with your close friends",
+    "type": "social",
+    "participants": 4,
+    "price": 0.1,
+    "link": "",
+    "key": "8442249",
+    "accessibility": 0.1
+}
+
+Request:
+End Point:http://www.boredapi.com/api/activity?accessibility=1
+Method: GET
+
+Response:
+Status Code: 200
+Reponse Body:{
+    "activity": "Watch the sunset or the sunrise",
+    "type": "recreational",
+    "participants": 1,
+    "price": 0,
+    "link": "",
+    "key": "4748214",
+    "accessibility": 1
+}
+
+
+Request:
+End Point:http://www.boredapi.com/api/activity?accessibility=0
+Method: GET
+
+Response:
+Status Code: 200
+Reponse Body:{
+    "activity": "Clean out your refrigerator",
+    "type": "busywork",
+    "participants": 1,
+    "price": 0,
+    "link": "",
+    "key": "9324336",
+    "accessibility": 0
+}
+
+
+
+Request:
+End Point:http://www.boredapi.com/api/activity?accessibility=-1
+Method: GET
+
+Response:
+Status Code: 200
+Reponse Body:{
+    "error": "No activity found with the specified parameters"
+}
+
+Request:
+End Point:
+Method: GET
+
+Response:
+Status Code: 200
+Reponse Body:
+
+
+Request:
+End Point:
+Method: GET
+
+Response:
+Status Code: 200
+Reponse Body:
+
+Request:
+End Point:
+Method: GET
+
+Response:
+Status Code: 200
+Reponse Body:
